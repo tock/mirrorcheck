@@ -1,0 +1,48 @@
+---
+title: "`test-mirrors` has encountered an error"
+---
+
+{% for issue in issues %}{% if issue.type == "request_error" %}
+### Request Error for URL
+
+Details:
+- URL: {{ issue.url }}
+- Mirror: {{ issue.mirror.base_url }}
+  - Admins:{% for admin in issue.mirror.admins %} @{{ admin }}{% endfor %}
+
+Error message:
+```
+{{ issue.error_message }}
+```
+
+{% elif issue.type == "content_length_header_record_mismatch" %}
+### Unexpected Content Length
+
+Details:
+- URL: {{ issue.url }}
+- Mirror: {{ issue.mirror.base_url }}
+  - Admins:{% for admin in issue.mirror.admins %} @{{ admin }}{% endfor %}
+- Expected content length (from data on record): {{ issue.record_size }} bytes
+- `Content-Length` header: {{ issue.content_length_header }} bytes
+
+{% elif issue.type == "content_length_header_response_mismatch" %}
+### Content Length Header and Response Mismatch
+
+Details:
+- URL: {{ issue.url }}
+- Mirror: {{ issue.mirror.base_url }}
+  - Admins:{% for admin in issue.mirror.admins %} @{{ admin }}{% endfor %}
+- `Content-Length` header: {{ issue.content_length_header }} bytes
+- Response size: {{ issue.response_size }} bytes
+
+{% elif issue.type == "checksum_mismatch" %}
+### Checksum Mismatch
+
+Details:
+- URL: {{ issue.url }}
+- Mirror: {{ issue.mirror.base_url }}
+  - Admins:{% for admin in issue.mirror.admins %} @{{ admin }}{% endfor %}
+- Expected checksum: `{{ issue.record_checksum }}`
+- Actual checsum: `{{ issue.response_checksum }}`
+
+{% endif %}{% endfor %}

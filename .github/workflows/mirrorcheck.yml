@@ -1,0 +1,63 @@
+name: "Check mirrors"
+
+on:
+  schedule:
+  - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  checkmirrors:
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository, and to create issues:
+      contents: write
+      issues: write
+
+    steps:
+    # Clone the tock-mirrorcheck repo
+    - uses: actions/checkout@v4
+
+    # Setup Python and install dependencies:
+    - uses: actions/setup-python@v5
+    - name: Install Python Dependencies
+      run: pip install -r requirements.txt
+
+    # TODO: insert step that fetches new URLs from various Tock repositories
+
+    # Check mirrors:
+    - name: Check mirrors
+      run: |
+        ./mirrorcheck.py -v \
+          check-mirrors \
+          -u urls.json \
+          -m mirrors.json \
+          --gh-issue-template gh_issue_template.md.j2 \
+          --gh-issue-out issue.md \
+          --diff
+
+    # Copy the "unknown_error_issue.md" file if the previous script has not
+    # created an issue file, but errored (e.g., if it crashed with an
+    # exception):
+    - name: Copy unknown error issue template if no issue was templated
+      if: failure()
+      run: |
+        test ! -f issue.md && cp unknown_error_issue.md issue.md
+
+    # Create an issue, if the mirrorcheck script reported errors:
+    - uses: JasonEtco/create-an-issue@v2
+      if: failure()
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        filename: issue.md
+
+    # Commit changes back to repo:
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      if: always() # Run even if the script reported errors
+      with:
+        commit_message: Update mirror check results
+        commit_user_name: Mirrorcheck Bot
+        commit_user_email: mirrorcheckbot@tockos.org
+        commit_author: Mirrorcheck Bot <mirrorcheckbot@tockos.org>

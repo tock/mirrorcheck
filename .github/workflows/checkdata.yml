@@ -1,0 +1,25 @@
+name: "Check database validity"
+
+on:
+  push:
+
+jobs:
+  checkdata:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Clone the tock-mirrorcheck repo
+    - uses: actions/checkout@v4
+
+    # Setup Python
+    - uses: actions/setup-python@v5
+    - name: Install Python Dependencies
+      run: pip install -r requirements.txt
+
+    - name: Check database validity
+      run: |
+        ./mirrorcheck.py -v \
+          check-data \
+          -u urls.json \
+          -m mirrors.json
+

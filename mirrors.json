@@ -11,6 +11,13 @@
       "lschuermann"
     ],
     "dead": false,
+    "replicates": []
+  },
+  "https://alpha.mirror.svc.schuermann.io/files/tock/": {
+    "admins": [
+      "lschuermann"
+    ],
+    "dead": false,
     "replicates": [
       "http://www.cs.virginia.edu/~bjc8c/archive/"
     ]

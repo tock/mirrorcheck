@@ -27,7 +27,7 @@
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/",
     "size": 271109057
   },
-  "https://alpha.mirror.svc.schuermann.io/files/gcc-riscv64-unknown-elf-8.3.0-ubuntu.zip": {
+  "https://alpha.mirror.svc.schuermann.io/files/tock/gcc-riscv64-unknown-elf-8.3.0-ubuntu.zip": {
     "checksum": "2c82a8f3ac77bf2b24d66abff3aa5e873750c76de24c77e12dae91b9d2f4da27",
     "discovered": [
       {
@@ -41,7 +41,7 @@
     "ignored": false,
     "last_fetch": null,
     "last_head": null,
-    "mirror": "https://alpha.mirror.svc.schuermann.io/files/",
+    "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 271109057
   }
 }

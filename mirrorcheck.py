@@ -166,7 +166,8 @@ def mirrorcheck(log, mirrors, urls):
                     # make sure that the size and checksum attributes
                     # match up:
                     if urls[replica_url]["size"] != record["size"] \
-                       or (bytes.fromhex(urls[replica_url]["checksum"])
+                       or (record["checksum"] is not None and
+                           bytes.fromhex(urls[replica_url]["checksum"])
                            != bytes.fromhex(record["checksum"])):
                         log.warning(
                             f"Replica attributes mismatch! replica mirror: "
@@ -236,7 +237,9 @@ def mirrorcheck(log, mirrors, urls):
         # Every once in a while, we want to fetch the full file to detect things
         # such as silent data corruption. We further do this when the file's
         # checksum it set to None.
-        full_fetch = record["checksum"] is None or record["last_fetch"] is None \
+        full_fetch = record["size"] is None \
+            or record["checksum"] is None \
+            or record["last_fetch"] is None \
             or record["last_fetch"] + FULL_FETCH_INTERVAL < int(time.time())
 
         method = "GET" if full_fetch else "HEAD"
@@ -268,8 +271,9 @@ def mirrorcheck(log, mirrors, urls):
             lambda header: header[0].lower() == "content-length",
             resp.headers.items()))
 
-        if len(resp_content_length) > 0 and \
-           int(resp_content_length[0][1]) != record["size"]:
+        if record["size"] is not None \
+           and len(resp_content_length) > 0 \
+           and int(resp_content_length[0][1]) != record["size"]:
             log.warning(
                 f"Diverging content-length header: {resp_content_length[0][1]} "
                 + f"bytes fetched now vs. {record['size']} bytes on record"

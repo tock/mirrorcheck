@@ -13,6 +13,51 @@
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/",
     "size": 271109057
   },
+  "http://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-libc++-10.5.0.zip": {
+    "checksum": null,
+    "discovered": [],
+    "ignored": false,
+    "last_fetch": null,
+    "last_head": null,
+    "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
+    "size": null
+  },
+  "http://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-libc++-12.3.0.zip": {
+    "checksum": null,
+    "discovered": [],
+    "ignored": false,
+    "last_fetch": null,
+    "last_head": null,
+    "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
+    "size": null
+  },
+  "http://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-libc++-13.2.0.zip": {
+    "checksum": null,
+    "discovered": [],
+    "ignored": false,
+    "last_fetch": null,
+    "last_head": null,
+    "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
+    "size": null
+  },
+  "http://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-newlib-4.3.0.20230120.zip": {
+    "checksum": null,
+    "discovered": [],
+    "ignored": false,
+    "last_fetch": null,
+    "last_head": null,
+    "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
+    "size": null
+  },
+  "http://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-newlib-4.2.0.20211231.zip": {
+    "checksum": null,
+    "discovered": [],
+    "ignored": false,
+    "last_fetch": null,
+    "last_head": null,
+    "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
+    "size": null
+  },
   "https://alpha.mirror.svc.schuermann.io/files/2023-08-17_gcc-riscv64-unknown-elf-8.3.0-ubuntu.zip": {
     "checksum": "2c82a8f3ac77bf2b24d66abff3aa5e873750c76de24c77e12dae91b9d2f4da27",
     "discovered": [

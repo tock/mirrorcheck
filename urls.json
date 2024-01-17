@@ -9,7 +9,7 @@
     ],
     "ignored": false,
     "last_fetch": 1705481625,
-    "last_head": 1705494705,
+    "last_head": 1705495355,
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/",
     "size": 271109057
   },
@@ -23,7 +23,7 @@
     ],
     "ignored": false,
     "last_fetch": 1705481605,
-    "last_head": 1705494706,
+    "last_head": 1705495356,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/",
     "size": 271109057
   },
@@ -39,7 +39,7 @@
       }
     ],
     "ignored": false,
-    "last_fetch": null,
+    "last_fetch": 1705495364,
     "last_head": null,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 271109057

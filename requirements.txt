@@ -3,6 +3,6 @@ charset-normalizer==3.3.2
 idna==3.8
 Jinja2==3.1.4
 MarkupSafe==2.1.5
-urllib3==2.2.2
+urllib3==2.2.3
 requests==2.32.3
 validators==0.34.0

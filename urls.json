@@ -153,5 +153,24 @@
     "last_head": 1730336138,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 314700571
+  },
+  "http://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-newlib-4.4.0.20231231.zip": {
+    "checksum": null,
+    "discovered": [],
+    "ignored": false,
+    "last_fetch": null,
+    "last_head": null,
+    "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
+    "size": null
+  },
+  "http://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-libc++-14.1.0.zip": {
+    "checksum": null,
+    "discovered": [],
+    "ignored": false,
+    "last_fetch": null,
+    "last_head": null,
+    "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
+    "size": null
   }
 }
+

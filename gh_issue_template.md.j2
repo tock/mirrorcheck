@@ -45,4 +45,9 @@ Details:
 - Expected checksum: `{{ issue.record_checksum }}`
 - Actual checsum: `{{ issue.response_checksum }}`
 
+{% else %}
+### Unknown Error Encountered
+
+Error JSON: `{{ issue | tojson }}`
+
 {% endif %}{% endfor %}

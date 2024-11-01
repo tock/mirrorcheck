@@ -431,8 +431,9 @@ def main():
             log.error("Cannot generate GitHub issue without template.")
             return 1
 
-        with open(args.gh_issue_template, "r") as f:
-            gh_issue_template = jinja2.Template(f.read())
+        if args.gh_issue_template:
+            with open(args.gh_issue_template, "r") as f:
+                gh_issue_template = jinja2.Template(f.read())
 
         updated_urls = copy.deepcopy(urls)
         issues = mirrorcheck(log, mirrors, updated_urls)

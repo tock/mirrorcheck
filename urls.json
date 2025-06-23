@@ -9,7 +9,7 @@
     ],
     "ignored": false,
     "last_fetch": 1750208691,
-    "last_head": 1750554672,
+    "last_head": 1750640928,
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/",
     "size": 271109057
   },
@@ -18,7 +18,7 @@
     "discovered": [],
     "ignored": false,
     "last_fetch": 1750208693,
-    "last_head": 1750554672,
+    "last_head": 1750640928,
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
     "size": 115305315
   },
@@ -27,7 +27,7 @@
     "discovered": [],
     "ignored": false,
     "last_fetch": 1750208694,
-    "last_head": 1750554672,
+    "last_head": 1750640928,
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
     "size": 139449871
   },
@@ -36,7 +36,7 @@
     "discovered": [],
     "ignored": false,
     "last_fetch": 1750208695,
-    "last_head": 1750554673,
+    "last_head": 1750640928,
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
     "size": 151249045
   },
@@ -45,7 +45,7 @@
     "discovered": [],
     "ignored": false,
     "last_fetch": 1750467825,
-    "last_head": 1750554673,
+    "last_head": 1750640929,
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
     "size": 169597393
   },
@@ -54,7 +54,7 @@
     "discovered": [],
     "ignored": false,
     "last_fetch": 1750208698,
-    "last_head": 1750554673,
+    "last_head": 1750640929,
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
     "size": 300158324
   },
@@ -63,7 +63,7 @@
     "discovered": [],
     "ignored": false,
     "last_fetch": 1750208701,
-    "last_head": 1750554673,
+    "last_head": 1750640929,
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
     "size": 314700571
   },
@@ -72,7 +72,7 @@
     "discovered": [],
     "ignored": false,
     "last_fetch": 1750467834,
-    "last_head": 1750554674,
+    "last_head": 1750640929,
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
     "size": 355123001
   },
@@ -86,7 +86,7 @@
     ],
     "ignored": false,
     "last_fetch": 1750208703,
-    "last_head": 1750554674,
+    "last_head": 1750640929,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/",
     "size": 271109057
   },
@@ -103,7 +103,7 @@
     ],
     "ignored": false,
     "last_fetch": 1750467842,
-    "last_head": 1750554675,
+    "last_head": 1750640929,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 271109057
   },
@@ -116,7 +116,7 @@
     ],
     "ignored": false,
     "last_fetch": 1750467845,
-    "last_head": 1750554675,
+    "last_head": 1750640929,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 115305315
   },
@@ -129,7 +129,7 @@
     ],
     "ignored": false,
     "last_fetch": 1750467849,
-    "last_head": 1750554676,
+    "last_head": 1750640929,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 139449871
   },
@@ -142,7 +142,7 @@
     ],
     "ignored": false,
     "last_fetch": 1750467853,
-    "last_head": 1750554676,
+    "last_head": 1750640930,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 151249045
   },
@@ -155,7 +155,7 @@
     ],
     "ignored": false,
     "last_fetch": 1750467857,
-    "last_head": 1750554676,
+    "last_head": 1750640930,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 169597393
   },
@@ -168,7 +168,7 @@
     ],
     "ignored": false,
     "last_fetch": 1750467864,
-    "last_head": 1750554677,
+    "last_head": 1750640930,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 300158324
   },
@@ -180,7 +180,7 @@
       }
     ],
     "ignored": false,
-    "last_fetch": 1749949914,
+    "last_fetch": 1750640932,
     "last_head": 1750554677,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 314700571
@@ -193,7 +193,7 @@
       }
     ],
     "ignored": false,
-    "last_fetch": 1749949917,
+    "last_fetch": 1750640935,
     "last_head": 1750554678,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 355123001

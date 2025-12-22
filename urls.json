@@ -8,7 +8,7 @@
       }
     ],
     "ignored": false,
-    "last_fetch": 1765674706,
+    "last_fetch": 1766365808,
     "last_head": 1766279487,
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/",
     "size": 271109057
@@ -17,7 +17,7 @@
     "checksum": "1cd4eef592bcc7b9ec77e2c21b50dabcff9b614b4cd1ec82a9dac238c8789c95",
     "discovered": [],
     "ignored": false,
-    "last_fetch": 1765674707,
+    "last_fetch": 1766365809,
     "last_head": 1766279488,
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
     "size": 115305315
@@ -26,7 +26,7 @@
     "checksum": "b0686eb1905594bde7b746fc58be97aceac8f802d8b5171adb6a4e84f3906d30",
     "discovered": [],
     "ignored": false,
-    "last_fetch": 1765674709,
+    "last_fetch": 1766365811,
     "last_head": 1766279488,
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
     "size": 139449871
@@ -35,7 +35,7 @@
     "checksum": "9940242a1390f897f8c3fe6e7a8821e863580797f9a6e80a91f52e41dd8086a1",
     "discovered": [],
     "ignored": false,
-    "last_fetch": 1765674711,
+    "last_fetch": 1766365813,
     "last_head": 1766279488,
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
     "size": 151249045
@@ -45,7 +45,7 @@
     "discovered": [],
     "ignored": false,
     "last_fetch": 1766019842,
-    "last_head": 1766279489,
+    "last_head": 1766365813,
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
     "size": 169597393
   },
@@ -53,7 +53,7 @@
     "checksum": "5916d76f1cc3c0f5487275823c85a9a9954edfa15f5706342ecb254d634ed559",
     "discovered": [],
     "ignored": false,
-    "last_fetch": 1765674714,
+    "last_fetch": 1766365816,
     "last_head": 1766279489,
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
     "size": 300158324
@@ -62,7 +62,7 @@
     "checksum": "2595f02f7cb2fd2e444f4ddc7955deca4c52deb3f91411c4d28326be8b0d9e0d",
     "discovered": [],
     "ignored": false,
-    "last_fetch": 1765674717,
+    "last_fetch": 1766365819,
     "last_head": 1766279489,
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
     "size": 314700571
@@ -72,7 +72,7 @@
     "discovered": [],
     "ignored": false,
     "last_fetch": 1766019846,
-    "last_head": 1766279490,
+    "last_head": 1766365819,
     "mirror": "http://www.cs.virginia.edu/~bjc8c/archive/tock/",
     "size": 355123001
   },
@@ -85,7 +85,7 @@
       }
     ],
     "ignored": false,
-    "last_fetch": 1765760934,
+    "last_fetch": 1766365820,
     "last_head": 1766279491,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/",
     "size": 271109057
@@ -103,7 +103,7 @@
     ],
     "ignored": false,
     "last_fetch": 1766019848,
-    "last_head": 1766279491,
+    "last_head": 1766365820,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 271109057
   },
@@ -116,7 +116,7 @@
     ],
     "ignored": false,
     "last_fetch": 1766019849,
-    "last_head": 1766279491,
+    "last_head": 1766365821,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 115305315
   },
@@ -129,7 +129,7 @@
     ],
     "ignored": false,
     "last_fetch": 1766019850,
-    "last_head": 1766279492,
+    "last_head": 1766365821,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 139449871
   },
@@ -142,7 +142,7 @@
     ],
     "ignored": false,
     "last_fetch": 1766019852,
-    "last_head": 1766279492,
+    "last_head": 1766365821,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 151249045
   },
@@ -155,7 +155,7 @@
     ],
     "ignored": false,
     "last_fetch": 1766019853,
-    "last_head": 1766279492,
+    "last_head": 1766365821,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 169597393
   },
@@ -168,7 +168,7 @@
     ],
     "ignored": false,
     "last_fetch": 1766019855,
-    "last_head": 1766279493,
+    "last_head": 1766365821,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 300158324
   },
@@ -181,7 +181,7 @@
     ],
     "ignored": false,
     "last_fetch": 1766019857,
-    "last_head": 1766279493,
+    "last_head": 1766365821,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 314700571
   },
@@ -193,7 +193,7 @@
       }
     ],
     "ignored": false,
-    "last_fetch": 1765760936,
+    "last_fetch": 1766365822,
     "last_head": 1766279493,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 355123001

@@ -368,6 +368,17 @@ def main():
         "-m", "--mirrors-json", required=True,
         help="Mirrors database file")
 
+    # add-url subcommand:
+    add_url_parser = subparsers.add_parser(
+        "add-url", help="Download and add a URL")
+    add_url_parser.add_argument("url", help="URL to add")
+    add_url_parser.add_argument(
+        "-u", "--urls-json", required=True,
+        help="URLs database file")
+    add_url_parser.add_argument(
+        "-m", "--mirrors-json", required=True,
+        help="Mirrors database file")
+
     # check-mirrors subcommand:
     check_mirrors_parser = subparsers.add_parser("check-mirrors")
     check_mirrors_parser.add_argument(
@@ -402,7 +413,7 @@ def main():
     else:
         log.setLevel(logging.INFO)
 
-    if args.subcommand in ["check-data", "check-mirrors"]:
+    if args.subcommand in ["check-data", "check-mirrors", "add-url"]:
         with open(args.urls_json, "r") as f:
             urls = json.load(f)
 
@@ -423,6 +434,44 @@ def main():
 
     if args.subcommand == "check-data":
         # Already handled above.
+        return 0
+
+    elif args.subcommand == "add-url":
+        if args.url in urls:
+            log.error(f"URL already exists: {args.url}")
+            return 1
+
+        matching_mirrors = [mirror for mirror in mirrors
+                            if args.url.startswith(mirror)]
+        if not matching_mirrors:
+            log.error(f"URL does not belong to a known mirror: {args.url}")
+            return 1
+        mirror = max(matching_mirrors, key=len)
+
+        log.info(f"Downloading URL to determine checksum and size: {args.url}")
+        try:
+            with requests.get(args.url, timeout=30, allow_redirects=True,
+                              stream=True) as resp:
+                resp.raise_for_status()
+                hash_filter = TransparentHasher(
+                    hashlib.sha256(), resp.iter_content(chunk_size=16 * 1024))
+                size = sum(len(chunk) for chunk in hash_filter)
+        except requests.RequestException as error:
+            log.error(f"Could not download URL: {error}")
+            return 1
+
+        urls[args.url] = {
+            "checksum": hash_filter.hasher().hexdigest(),
+            "discovered": [],
+            "ignored": False,
+            "last_fetch": None,
+            "last_head": None,
+            "mirror": mirror,
+            "size": size,
+        }
+        with open(args.urls_json, "w") as f:
+            json.dump(urls, f, indent=2, sort_keys=True)
+        log.info(f"Added URL: {args.url}")
         return 0
 
     elif args.subcommand == "check-mirrors":

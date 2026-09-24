@@ -15,17 +15,11 @@ the URLs it knows about it a `urls.json` file. Identical files on
 different mirrors correspond to different URLs, but should have
 identical checksum & size fields.
 
-To add a new URL, simply copy and modify an existing URL entry. The
-`last_fetch`, `last_head`, `size` and `checksum` field should be set
-to `null`.
+To add a new URL, run:
 
-To add a new mirror, copy and modify an existing mirror entry. Mirrors
-can be defined to replicate existing mirrors. This will, when a new
-URL for one of these replicated mirrors is detected, attempt to
-automatically fetch this same URL (relative to the original mirror's
-base path) from the replica mirror (**not yet
-implemented**). Importantly, it will create an issue if this file is
-missing on the replica mirror.
+```sh
+python3 mirrorcheck.py add-url -u urls.json -m mirrors.json 'https://example.org/files/archive.zip'
+```
 
 ## License
 

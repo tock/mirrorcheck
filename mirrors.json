@@ -1,12 +1,12 @@
 {
-  "http://www.cs.virginia.edu/~bjc8c/archive/": {
+  "https://www.cs.virginia.edu/~bjc8c/archive/": {
     "admins": [
       "bradjc"
     ],
     "dead": false,
     "replicates": []
   },
-  "http://www.cs.virginia.edu/~bjc8c/archive/tock/": {
+  "https://www.cs.virginia.edu/~bjc8c/archive/tock/": {
     "admins": [
       "bradjc"
     ],
@@ -26,7 +26,7 @@
     ],
     "dead": false,
     "replicates": [
-      "http://www.cs.virginia.edu/~bjc8c/archive/tock/"
+      "https://www.cs.virginia.edu/~bjc8c/archive/tock/"
     ]
   }
 }

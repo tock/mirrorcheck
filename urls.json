@@ -1,99 +1,4 @@
 {
-  "https://www.cs.virginia.edu/~bjc8c/archive/gcc-riscv64-unknown-elf-8.3.0-ubuntu.zip": {
-    "checksum": "2c82a8f3ac77bf2b24d66abff3aa5e873750c76de24c77e12dae91b9d2f4da27",
-    "discovered": [
-      {
-        "commit": "9e276c93b3608175f7e7897335537a4e6860e2de",
-        "repo": "https://github.com/tock/tock"
-      }
-    ],
-    "ignored": false,
-    "last_fetch": 1793070482,
-    "last_head": 1793332079,
-    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/",
-    "size": 271109057
-  },
-  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-libc++-10.5.0.zip": {
-    "checksum": "1cd4eef592bcc7b9ec77e2c21b50dabcff9b614b4cd1ec82a9dac238c8789c95",
-    "discovered": [],
-    "ignored": false,
-    "last_fetch": 1793070484,
-    "last_head": 1793332080,
-    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
-    "size": 115305315
-  },
-  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-libc++-12.3.0.zip": {
-    "checksum": "b0686eb1905594bde7b746fc58be97aceac8f802d8b5171adb6a4e84f3906d30",
-    "discovered": [],
-    "ignored": false,
-    "last_fetch": 1793070487,
-    "last_head": 1793332081,
-    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
-    "size": 139449871
-  },
-  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-libc++-13.2.0.zip": {
-    "checksum": "9940242a1390f897f8c3fe6e7a8821e863580797f9a6e80a91f52e41dd8086a1",
-    "discovered": [],
-    "ignored": false,
-    "last_fetch": 1793070489,
-    "last_head": 1793332081,
-    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
-    "size": 151249045
-  },
-  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-libc++-14.1.0.zip": {
-    "checksum": "46d50ea6a380f2c977e6aad187da216c35b793b31b3ea6de9646339c2a22f13c",
-    "discovered": [],
-    "ignored": false,
-    "last_fetch": 1792982020,
-    "last_head": 1793332082,
-    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
-    "size": 169597393
-  },
-  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-libc++-15.2.0.zip": {
-    "checksum": "a49348e215a32beb89a03715252ca060798c19de96955594f5431f4fad6aceff",
-    "discovered": [],
-    "ignored": false,
-    "last_fetch": 1793332086,
-    "last_head": 1793245499,
-    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
-    "size": 203258904
-  },
-  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-newlib-4.2.0.20211231.zip": {
-    "checksum": "5916d76f1cc3c0f5487275823c85a9a9954edfa15f5706342ecb254d634ed559",
-    "discovered": [],
-    "ignored": false,
-    "last_fetch": 1793070494,
-    "last_head": 1793332086,
-    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
-    "size": 300158324
-  },
-  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-newlib-4.3.0.20230120.zip": {
-    "checksum": "2595f02f7cb2fd2e444f4ddc7955deca4c52deb3f91411c4d28326be8b0d9e0d",
-    "discovered": [],
-    "ignored": false,
-    "last_fetch": 1793070498,
-    "last_head": 1793332086,
-    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
-    "size": 314700571
-  },
-  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-newlib-4.4.0.20231231.zip": {
-    "checksum": "686af44e1bba625eb24b3cfb1fd2d48a61848c1edebbd49b5dbec554ebf2ea94",
-    "discovered": [],
-    "ignored": false,
-    "last_fetch": 1792982028,
-    "last_head": 1793332087,
-    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
-    "size": 355123001
-  },
-  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-newlib-4.6.0.20260123.zip": {
-    "checksum": "aed944a982783670c236e0f19622c25af6271a67d1dce1e304493ea613fafbc1",
-    "discovered": [],
-    "ignored": false,
-    "last_fetch": 1793332099,
-    "last_head": 1793245501,
-    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
-    "size": 733341743
-  },
   "https://alpha.mirror.svc.schuermann.io/files/2023-08-17_gcc-riscv64-unknown-elf-8.3.0-ubuntu.zip": {
     "checksum": "2c82a8f3ac77bf2b24d66abff3aa5e873750c76de24c77e12dae91b9d2f4da27",
     "discovered": [
@@ -104,7 +9,7 @@
     ],
     "ignored": false,
     "last_fetch": 1794288815,
-    "last_head": 1794369823,
+    "last_head": 1794436942,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/",
     "size": 271109057
   },
@@ -121,7 +26,7 @@
     ],
     "ignored": false,
     "last_fetch": 1794288824,
-    "last_head": 1794369823,
+    "last_head": 1794436943,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 271109057
   },
@@ -134,7 +39,7 @@
     ],
     "ignored": false,
     "last_fetch": 1794288828,
-    "last_head": 1794369823,
+    "last_head": 1794436943,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 115305315
   },
@@ -147,7 +52,7 @@
     ],
     "ignored": false,
     "last_fetch": 1794288833,
-    "last_head": 1794369824,
+    "last_head": 1794436944,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 139449871
   },
@@ -160,7 +65,7 @@
     ],
     "ignored": false,
     "last_fetch": 1794288841,
-    "last_head": 1794369824,
+    "last_head": 1794436944,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 151249045
   },
@@ -173,7 +78,7 @@
     ],
     "ignored": false,
     "last_fetch": 1794288847,
-    "last_head": 1794369825,
+    "last_head": 1794436945,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 169597393
   },
@@ -186,7 +91,7 @@
     ],
     "ignored": false,
     "last_fetch": 1793939724,
-    "last_head": 1794369825,
+    "last_head": 1794436945,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 203258904
   },
@@ -199,7 +104,7 @@
     ],
     "ignored": false,
     "last_fetch": 1794288857,
-    "last_head": 1794369825,
+    "last_head": 1794436946,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 300158324
   },
@@ -212,7 +117,7 @@
     ],
     "ignored": false,
     "last_fetch": 1794288869,
-    "last_head": 1794369826,
+    "last_head": 1794436946,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 314700571
   },
@@ -225,7 +130,7 @@
     ],
     "ignored": false,
     "last_fetch": 1794288880,
-    "last_head": 1794369826,
+    "last_head": 1794436947,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
     "size": 355123001
   },
@@ -238,8 +143,103 @@
     ],
     "ignored": false,
     "last_fetch": 1793939750,
-    "last_head": 1794369827,
+    "last_head": 1794436947,
     "mirror": "https://alpha.mirror.svc.schuermann.io/files/tock/",
+    "size": 733341743
+  },
+  "https://www.cs.virginia.edu/~bjc8c/archive/gcc-riscv64-unknown-elf-8.3.0-ubuntu.zip": {
+    "checksum": "2c82a8f3ac77bf2b24d66abff3aa5e873750c76de24c77e12dae91b9d2f4da27",
+    "discovered": [
+      {
+        "commit": "9e276c93b3608175f7e7897335537a4e6860e2de",
+        "repo": "https://github.com/tock/tock"
+      }
+    ],
+    "ignored": false,
+    "last_fetch": 1794436884,
+    "last_head": 1793332079,
+    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/",
+    "size": 271109057
+  },
+  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-libc++-10.5.0.zip": {
+    "checksum": "1cd4eef592bcc7b9ec77e2c21b50dabcff9b614b4cd1ec82a9dac238c8789c95",
+    "discovered": [],
+    "ignored": false,
+    "last_fetch": 1794436887,
+    "last_head": 1793332080,
+    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
+    "size": 115305315
+  },
+  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-libc++-12.3.0.zip": {
+    "checksum": "b0686eb1905594bde7b746fc58be97aceac8f802d8b5171adb6a4e84f3906d30",
+    "discovered": [],
+    "ignored": false,
+    "last_fetch": 1794436891,
+    "last_head": 1793332081,
+    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
+    "size": 139449871
+  },
+  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-libc++-13.2.0.zip": {
+    "checksum": "9940242a1390f897f8c3fe6e7a8821e863580797f9a6e80a91f52e41dd8086a1",
+    "discovered": [],
+    "ignored": false,
+    "last_fetch": 1794436895,
+    "last_head": 1793332081,
+    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
+    "size": 151249045
+  },
+  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-libc++-14.1.0.zip": {
+    "checksum": "46d50ea6a380f2c977e6aad187da216c35b793b31b3ea6de9646339c2a22f13c",
+    "discovered": [],
+    "ignored": false,
+    "last_fetch": 1794436899,
+    "last_head": 1793332082,
+    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
+    "size": 169597393
+  },
+  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-libc++-15.2.0.zip": {
+    "checksum": "a49348e215a32beb89a03715252ca060798c19de96955594f5431f4fad6aceff",
+    "discovered": [],
+    "ignored": false,
+    "last_fetch": 1794436904,
+    "last_head": 1793245499,
+    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
+    "size": 203258904
+  },
+  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-newlib-4.2.0.20211231.zip": {
+    "checksum": "5916d76f1cc3c0f5487275823c85a9a9954edfa15f5706342ecb254d634ed559",
+    "discovered": [],
+    "ignored": false,
+    "last_fetch": 1794436911,
+    "last_head": 1793332086,
+    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
+    "size": 300158324
+  },
+  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-newlib-4.3.0.20230120.zip": {
+    "checksum": "2595f02f7cb2fd2e444f4ddc7955deca4c52deb3f91411c4d28326be8b0d9e0d",
+    "discovered": [],
+    "ignored": false,
+    "last_fetch": 1794436918,
+    "last_head": 1793332086,
+    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
+    "size": 314700571
+  },
+  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-newlib-4.4.0.20231231.zip": {
+    "checksum": "686af44e1bba625eb24b3cfb1fd2d48a61848c1edebbd49b5dbec554ebf2ea94",
+    "discovered": [],
+    "ignored": false,
+    "last_fetch": 1794436926,
+    "last_head": 1793332087,
+    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
+    "size": 355123001
+  },
+  "https://www.cs.virginia.edu/~bjc8c/archive/tock/libtock-newlib-4.6.0.20260123.zip": {
+    "checksum": "aed944a982783670c236e0f19622c25af6271a67d1dce1e304493ea613fafbc1",
+    "discovered": [],
+    "ignored": false,
+    "last_fetch": 1794436942,
+    "last_head": 1793245501,
+    "mirror": "https://www.cs.virginia.edu/~bjc8c/archive/tock/",
     "size": 733341743
   }
 }
